@@ -61,6 +61,7 @@ main{
     padding-top: 100px;
 }
 
+
 h1{
     font-size: 36px;
     line-height: 40px;
@@ -98,6 +99,8 @@ span{
     font-weight: bold;
 }
 
+
+
 footer {
     font-family: 'JetBrains Mono', monospace;
     font-weight: normal;
@@ -108,7 +111,11 @@ footer {
     font-size:14px;
 
     bottom: 0;
+
+    margin-bottom: 10px;
+    
 }
+
 
 #line{
     width: 568px;;
@@ -119,7 +126,9 @@ footer {
 }
 
 #cadeado{
+    display: flex;
     position: fixed;
-    bottom: 0;
-    left: 0;
-}   
+    bottom: 5px;
+
+    left: 20px;
+}
